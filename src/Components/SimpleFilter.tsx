@@ -5,6 +5,7 @@ import '../CSS/SimpleFilter.css';
 
 const client = generateClient<Schema>();
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SimpleFilter = (props: any) => {
     const [query, setQuery] = useState('');
 
